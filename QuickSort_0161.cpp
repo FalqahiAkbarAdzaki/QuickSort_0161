@@ -48,5 +48,5 @@ void q_short(int low, int high)
 	j = high;
 
 
-	while
+	while (i <= j)
 }
