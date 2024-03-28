@@ -2,7 +2,7 @@
 using namespace std;
 
 int arr[20];
-int cmp count = 0;
+int cmp_count = 0;
 int n;
 
 void input() {
@@ -25,5 +25,28 @@ void input() {
 		cout << "<" << (i + 1) << ">";
 		cin >> arr[i];
 	}
+}
+Void swap(int x, int y)
+{
+	int temp = arr[X];
+	arr[x] = arr[y];
+	arr[y] = temp;
+	mov_count++;
 
+
+}
+void q_short(int low, int high)
+{
+	int temp;
+	int pivot, i, j;
+	if (low > high) {
+		return;
+	}
+
+	pivot = arr[low];
+	i = low + 1;
+	j = high;
+
+
+	while
 }
