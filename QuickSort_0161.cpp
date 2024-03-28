@@ -26,16 +26,20 @@ void input() {
 		cin >> arr[i];
 	}
 }
-Void swap(int x, int y)
+
+void swap(int x, int y)
+
 {
-	int temp = arr[X];
+	int temp = arr[x];
 	arr[x] = arr[y];
 	arr[y] = temp;
-	mov_count++;
+	mov_count;
 
 
 }
+
 void q_short(int low, int high)
+
 {
 	int temp;
 	int pivot, i, j;
